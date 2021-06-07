@@ -51,7 +51,7 @@
       },
       {
         "type": "field",
-        "outboundTag": "IP4_out",
+        "outboundTag": "IP6_out",
         "network": "udp,tcp"
       }
     ]
