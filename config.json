@@ -1,12 +1,12 @@
 {
   "inbounds": [{
-    "port": 37861,
+    "port": 39141,
     "listen": "127.0.0.1",
     "protocol": "vless",
     "settings": {
         "clients": [
             {
-                "id": "94ee95f1-3ee3-4c87-9929-da0e2a424a26",
+                "id": "3fab945f-4147-45f8-9a86-32131e88e0f8",
                 "level": 0
             }
         ],
@@ -16,27 +16,38 @@
         "network": "ws",
         "security": "none",
         "wsSettings": {
-            "path": "/rKsqgesbym6",
+            "path": "/5uZQRYhMHXM",
             "headers": {
                 "Host": "armjp.hoganyh.xyz"
             }
         }
     }
   }],
-  "outbounds": [{
-    "protocol": "freedom",
-    "settings": {}
-  },{
-    "protocol": "blackhole",
-    "settings": {},
-    "tag": "blocked"
-  }],
+ "outbounds": [
+    {
+      "tag":"IP4_out",
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "tag":"IP6_out",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIPv6" 
+      }
+    }
+  ],
   "routing": {
     "rules": [
       {
         "type": "field",
-        "ip": ["geoip:private"],
-        "outboundTag": "blocked"
+        "outboundTag": "IP6_out",
+        "domain": ["geosite:netflix"] 
+      },
+      {
+        "type": "field",
+        "outboundTag": "IP4_out",
+        "network": "udp,tcp"
       }
     ]
   }
