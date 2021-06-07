@@ -46,6 +46,11 @@
       },
       {
         "type": "field",
+        "outboundTag": "IP6_out",
+        "domain": ["geosite:cn"] 
+      },
+      {
+        "type": "field",
         "outboundTag": "IP4_out",
         "network": "udp,tcp"
       }
