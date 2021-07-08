@@ -1,12 +1,12 @@
 {
   "inbounds": [{
-    "port": 39141,
+    "port": 16626,
     "listen": "127.0.0.1",
     "protocol": "vless",
     "settings": {
         "clients": [
             {
-                "id": "3fab945f-4147-45f8-9a86-32131e88e0f8",
+                "id": "12f6e9b2-c644-4595-872e-438581c6faa2",
                 "level": 0
             }
         ],
@@ -16,9 +16,9 @@
         "network": "ws",
         "security": "none",
         "wsSettings": {
-            "path": "/5uZQRYhMHXM",
+            "path": "/CE5A3",
             "headers": {
-                "Host": "armjp.hoganyh.xyz"
+                "Host": "rnny.hoganyh.xyz"
             }
         }
     }
