@@ -1,12 +1,12 @@
 {
   "inbounds": [{
-    "port": 16626,
+    "port": 22675,
     "listen": "127.0.0.1",
     "protocol": "vless",
     "settings": {
         "clients": [
             {
-                "id": "12f6e9b2-c644-4595-872e-438581c6faa2",
+                "id": "c9261cb8-9b11-426a-8840-8719fe8415b7",
                 "level": 0
             }
         ],
@@ -16,14 +16,14 @@
         "network": "ws",
         "security": "none",
         "wsSettings": {
-            "path": "/CE5A3",
+            "path": "/ydUCY",
             "headers": {
-                "Host": "rnny.hoganyh.xyz"
+                "Host": "jhru.20cm.online"
             }
         }
     }
   }],
- "outbounds": [
+  "outbounds": [
     {
       "tag":"IP4_out",
       "protocol": "freedom",
