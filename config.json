@@ -41,17 +41,17 @@
     "rules": [
       {
         "type": "field",
-        "outboundTag": "IP6_out",
+        "outboundTag": "IP4_out",
         "domain": ["geosite:netflix"] 
       },
       {
         "type": "field",
-        "outboundTag": "IP6_out",
+        "outboundTag": "IP4_out",
         "domain": ["geosite:cn"] 
       },
       {
         "type": "field",
-        "outboundTag": "IP6_out",
+        "outboundTag": "IP4_out",
         "network": "udp,tcp"
       }
     ]
