@@ -1,12 +1,12 @@
 {
   "inbounds": [{
-    "port": 22675,
+    "port": 56826,
     "listen": "127.0.0.1",
     "protocol": "vless",
     "settings": {
         "clients": [
             {
-                "id": "c9261cb8-9b11-426a-8840-8719fe8415b7",
+                "id": "dc4a9d05-11f4-4661-95b4-406665bcd1b4",
                 "level": 0
             }
         ],
@@ -16,9 +16,9 @@
         "network": "ws",
         "security": "none",
         "wsSettings": {
-            "path": "/ydUCY",
+            "path": "/m1G08",
             "headers": {
-                "Host": "jhru.20cm.online"
+                "Host": "euserv.hogan20cm.ga"
             }
         }
     }
